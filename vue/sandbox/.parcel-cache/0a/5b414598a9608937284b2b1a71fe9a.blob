@@ -1,0 +1,9 @@
+var _vueDistVueJs = require('../vue/dist/vue.js');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _vueDistVueJsDefault = _parcelHelpers.interopDefault(_vueDistVueJs);
+var app = new _vueDistVueJsDefault.default({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  }
+});
